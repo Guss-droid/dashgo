@@ -20,10 +20,7 @@ export function SearchBox() {
         color="gray.50"
         variant="unstyled"
         placeholder="Buscar na plataforma"
-        _placeholder={{
-          color:
-            'gray.400'
-        }}
+        _placeholder={{ color: 'gray.400' }}
         px="4"
         mr="4"
       />

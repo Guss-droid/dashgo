@@ -17,7 +17,9 @@ export function SidebarDrawerProvider({ children }: ISidebarDrawer) {
   const router = useRouter()
 
   useEffect(() => {
+    
     disclosure.onClose
+    
   }, [router.asPath])
 
   return (
